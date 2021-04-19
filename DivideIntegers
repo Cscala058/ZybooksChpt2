@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class DivideIntegers {
+   public static void main(String[] args) {
+      Scanner scanner=new Scanner(System.in);
+int userNum=scanner.nextInt();
+int divNum=scanner.nextInt();
+int d1,d2,d3;
+d1=userNum/divNum;
+d2=d1/divNum;
+d3=d2/divNum;
+System.out.print(d1+" "+d2+" "+d3+"\n");
+
+   }
+}
